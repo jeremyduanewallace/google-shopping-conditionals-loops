@@ -46,9 +46,11 @@ var data = require('../products.json');
 
        for(var i = 0; i < data.items.length; i++){
           	   var item = data.items[i];
-          	   console.log();
-          	   
-          	   	}
+               // if(item.product.iventories[0].price.images[0] === 1){
+          	   console.log(item.product.inventories[0].price);
+
+               // }
+                }
           
 
 
